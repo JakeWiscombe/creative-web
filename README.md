@@ -1,12 +1,12 @@
 # Creative Web App - Project Concept
 
 My project concept must outline the following points:
-- [x] your proposed web app concept and unique features
-- [x] examples of existing alternatives and inspirations
-- [x] evidence of exploration and consideration of a range of ideas and approaches around this concept.
-- [x] how it will use data.
-- [ ] how it might present a novel user experience.
-- [ ] identify the audience and how the web app aligns to their needs
+- [x] Your proposed web app concept and unique features.
+- [x] Examples of existing alternatives and inspirations.
+- [x] Evidence of exploration and consideration of a range of ideas and approaches around this concept.
+- [x] How it will use data.
+- [x] How it might present a novel user experience.
+- [x] Identify the audience and how the web app aligns to their needs.
 
 # JX Modifications - Customer & Development Hub
 A secure web application designed to improve how custom development orders are managed between developers and customers at JX Modifications.
@@ -261,3 +261,37 @@ When an order requires payment, the system will automatically provide both Strip
 Completed work will also remain available through the customer's account, meaning customers will not need to search through old Discord conversations or temporary file links to find their custom products.
 
 Combining individual developer dashboards, Discord-based customer authentication, automatic payment options and permanent order downloads within one custom-order workflow will provide a more tailored experience than the systems currently being used independently.
+
+<br>
+
+## Target Audience & User Requirements
+The primary audiences for this application are **developers and customers**, with management having additional administrative access to manage permissions and oversee all operations from the dashboard.
+
+#### Developers
+All developers need an organised way of managing their own custom order workload, without searching through a large shared spreadsheet - it isn't efficient and lacks organisation.
+
+This application addresses this by providing each developer with an individual account, personalised dashboard and tools for creating, managing, tracking and completing custom orders.
+
+#### Customers
+Customers need a simple way to monitor custom orders and retain access to completed work.
+
+Discord authentication will reduce the need to create another account, while their dashboard will only display orders associated with their Discord ID.
+
+They will also be able to see order progress, payment options and completed downloads from one location.
+
+#### Management
+Management users need greater visibility over the custom-order process so that they can assist developers and customers when required.
+
+Management permissions may therefore provide access to all orders, developer workloads, account permissions and order reassignment.
+
+
+
+
+
+
+
+
+
+
+
+
