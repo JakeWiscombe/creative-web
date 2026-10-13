@@ -3,7 +3,7 @@
 My project concept must outline the following points:
 - [x] your proposed web app concept and unique features
 - [x] examples of existing alternatives and inspirations
-- [ ] evidence of exploration and consideration of a range of ideas and approaches around this concept.
+- [x] evidence of exploration and consideration of a range of ideas and approaches around this concept.
 - [ ] how it will use data.
 - [ ] how it might present a novel user experience.
 - [ ] identify the audience and how the web app aligns to their needs
@@ -49,7 +49,7 @@ Each custom order will be linked to a specific developer account, allowing the s
 
 > **Users with management permissions may also have the ability to reassign an order to another developer where necessary.**
 
-
+<br>
 
 ### Developer Dashboard
 The developer dashboard will act as the main working area for each developer on the team. Rather than every developer viewing every custom order across **JX Modifications**, they will only see the orders associated with their account.
@@ -190,3 +190,30 @@ Rather than attempting to replace Payhip, the application will only use selected
 Stripe and PayPal are already established payment platforms and will be used for handling payments rather than developing a separate payment system.
 
 Their APIs will allow payment links to be generated automatically when a custom order is created.
+
+<br>
+
+## Exploration & Consideration of Different Approaches
+Before deciding to develop a dedicated web application, I considered several different ways of improving the existing custom-order workflow.
+
+#### Expanding the Existing Google Sheet
+One option would be to continue developing the existing spreadsheet by introducing more columns, filters and organisation.
+
+This would be quicker to implement, but customers would still have no direct access to their orders and developers would continue sharing one large system which isn't efficient.
+
+#### Developing More Discord Bot Features
+Another option would be to move more of the custom-order workflow into the existing Discord environment.
+
+This would make the system convenient because developers and customers already use Discord. However, Discord is primarily designed for communication and would make it more difficult to provide permanent downloads, detailed dashboards and structured order information.
+
+#### Using Existing Project Management Software
+Existing project-management platforms could also be used to organise development work.
+
+However, these systems would not be designed around the specific workflow required for JX Modifications, particularly Discord authentication, customer downloads and automatic Stripe/PayPal payment generation.
+
+#### Creating a Dedicated Web Application
+I decided that a dedicated web application would provide the greatest amount of control over both the developer and customer experience.
+
+It allows the system to be designed specifically around the existing custom-order process while still integrating services that are already being used, such as Discord, Payhip, Stripe and PayPal.
+
+## Use of Data
