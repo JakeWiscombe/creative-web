@@ -244,3 +244,20 @@ The data will therefore not simply be stored; it will be used to dynamically det
 <br>
 
 ## Novel User Experience
+One of the main aims of this web application is to provide a more interactive experience than the current spreadsheet and Discord-based workflow currently provides.
+
+A developer will receive a detailed dashboard focused on workload and order management, while a customer will receive a simpler interface focused on the progress of their own custom orders.
+
+Customers could see the progress of an order through the stages such as:
+
+1. Awaiting Payment
+2. In Development
+3. Testing
+4. Customer Review
+5. Completed
+
+When an order requires payment, the system will automatically provide both Stripe and PayPal payment options directly from the customer's order page. Once paid, this will be updated and the developer will be notified that the customer has paid for their order and work can begin.
+
+Completed work will also remain available through the customer's account, meaning customers will not need to search through old Discord conversations or temporary file links to find their custom products.
+
+Combining individual developer dashboards, Discord-based customer authentication, automatic payment options and permanent order downloads within one custom-order workflow will provide a more tailored experience than the systems currently being used independently.
