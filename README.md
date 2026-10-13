@@ -1,12 +1,12 @@
 # Creative Web App - Project Concept
 
 My project concept must outline the following points:
-* your proposed web app concept and unique features
-* examples of existing alternatives and inspirations
-* evidence of exploration and consideration of a range of ideas and approaches around this concept.
-* how it will use data.
-* how it might present a novel user experience.
-* identify the audience and how the web app aligns to their needs
+- [x] your proposed web app concept and unique features
+- [ ] examples of existing alternatives and inspirations
+- [ ] evidence of exploration and consideration of a range of ideas and approaches around this concept.
+- [ ] how it will use data.
+- [ ] how it might present a novel user experience.
+- [ ] identify the audience and how the web app aligns to their needs
 
 # JX Modifications - Customer & Development Hub
 A secure web application designed to improve how custom development orders are managed between developers and customers at JX Modifications.
