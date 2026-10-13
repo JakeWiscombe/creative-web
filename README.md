@@ -19,6 +19,8 @@ Stripe and PayPal will be used to automatically generate payment links for custo
 
 This platform could later be expanded on containing areas such as a knowledge base for resources, careers and additional customer service, and much more! These will be treated as **future developments** rather than part of the core scope of this project.
 
+<br>
+
 ## Purpose
 The purpose of the **JX Customer & Development Hub** is to provide developers and customers with a secure and organised portal for managing custom orders, without relying on several disconnected systems.
 
@@ -28,6 +30,8 @@ My aim to bring the most important part of the custom-order process into one cen
 
 * Each developer will have their own account, allowing them to create and manage custom orders, and access tools relevant to their work.
 * Customers will be able to securely login using Discord to view orders associated with their Discord account and access completed files directly through the website.
+
+<br>
 
 ## Core Features
 
@@ -156,6 +160,8 @@ Management accounts will have wider access to the platform. They may be able to:
 
 > More advanced management functionality would be considered for future development.
 
+<br>
+
 ## Existing Alternatives & Inspirations
 There are several existing systems and platforms that have influenced the concept behind the JX Customer & Development Hub.
 
@@ -183,6 +189,8 @@ Stripe and PayPal are already established payment platforms and will be used for
 
 Their APIs will allow payment links to be generated automatically when a custom order is created.
 
+<br>
+
 ## Exploration & Consideration of Different Approaches
 Before deciding to develop a dedicated web application, I considered several different ways of improving the existing custom-order workflow.
 
@@ -205,6 +213,8 @@ However, these systems would not be designed around the specific workflow requir
 I decided that a dedicated web application would provide the greatest amount of control over both the developer and customer experience.
 
 It allows the system to be designed specifically around the existing custom-order process while still integrating services that are already being used, such as Discord, Payhip, Stripe and PayPal.
+
+<br>
 
 ## Use of Data
 Data will be an important part of the application because it will be used to connect developers, customers and custom orders. Information stored by the application may include:
@@ -230,3 +240,7 @@ Developer accounts will work in a similar way. Each order will contain informati
 Management accounts will have broader permissions, allowing authorised users to access information across multiple developers where necessary.
 
 The data will therefore not simply be stored; it will be used to dynamically determine what information and functionality each user sees.
+
+<br>
+
+## Novel User Experience
