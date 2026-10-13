@@ -49,6 +49,8 @@ Each custom order will be linked to a specific developera ccount, allowing the s
 
 > **Users with management permissions may also have the ability to reassign an order to another developer where necessary.**
 
+
+
 ### Developer Dashboard
 The developer dashboard will act as the main working area for each developer on the team. Rather than every developer viewing every cstuom order across **JX Modifications**, they will only see the orders associated with their account.
 
@@ -61,6 +63,8 @@ The developer dashboard will act as the main working area for each developer on 
 * Recent order activity.
 
 This will give each developer a quick overview of their current workload and make it easier to identify orders that require attention.
+
+
 
 ### Developer Custom Order Tracking
 Developers will be able to create, manage and track custom orders through their own dashboard, rather than relying on a large shared Google Sheet.
@@ -82,6 +86,8 @@ Developers will then be able to view their current and previous orders and updat
 
 This will provide developers with a clearer overview of their workload while also giving customers greater visibility over the progress of their order.
 
+
+
 ### Customer Portal and Downloads
 Customers will have access to the **JX Customer & Development Hub** through **Discord OAuth**.
 
@@ -100,6 +106,8 @@ Completed custom-order files will remain linked to the customer's account, provi
 
 > **This will only apply to custom orders**. Normal products purchased through the main JX Modifications store will continue to be accessed through Payhip.
 
+
+
 ### Payment Links - Using Stripe and PayPal API
 When a custom order is created, **JX Customer & Development Hub** will automatically generate both a Stripe and PayPal payment link using the information provided for that order.
 
@@ -107,12 +115,16 @@ The customer will then be able to view both payment options directly from their 
 
 This removes the need for developers to manually create payment requests through separate payment dashboards and ensures that customers are always given a choice between the two supported payment methods.
 
+
+
 ### Payhip Coupon Creation
 The **JX Customer & Development Hub** will integrate selected functionality from the **Payhip API**.
 
 Payhip will remain the main JX Modifications storefront and will continue to handle normal product sales and management. This web application **will not** allow developers to manage their publicly available products.
 
 Instead, authorised developers may be able to generate discount coupons for their own products when required.
+
+
 
 ### Account Types & Permissions
 The **JX Customer & Development Hub** will use role-based permissions so that different users have access to different areas of the system.
