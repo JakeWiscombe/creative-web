@@ -24,7 +24,7 @@ The purpose of the **JX Customer & Development Hub** is to provide developers an
 
 At present, information relating to custom orders may be spread across platforms such as Discord, Google Sheets and external file-hosting services. This can make orders more difficult to manage and increases the possibility of important information or completed files becoming difficult to access.
 
-My aim to bbring the most important part of the custom-order process into one central application:
+My aim to bring the most important part of the custom-order process into one central application:
 
 * Each developer will have their own account, allowing them to create and manage custom orders, and access tools relevant to their work.
 * Customers will be able to securely login using Discord to view orders associated with their Discord account and access completed files directly through the website.
@@ -45,14 +45,14 @@ Once logged in, developers will be taken to a personalised dashboard containing 
 * Create Payhip coupons where permitted with restrictions.
 * View relevant customer and order information.
 
-Each custom order will be linked to a specific developera ccount, allowing the system to clearly identify who is responsible for the work.
+Each custom order will be linked to a specific developer account, allowing the system to clearly identify who is responsible for the work.
 
 > **Users with management permissions may also have the ability to reassign an order to another developer where necessary.**
 
 
 
 ### Developer Dashboard
-The developer dashboard will act as the main working area for each developer on the team. Rather than every developer viewing every cstuom order across **JX Modifications**, they will only see the orders associated with their account.
+The developer dashboard will act as the main working area for each developer on the team. Rather than every developer viewing every custom order across **JX Modifications**, they will only see the orders associated with their account.
 
 **The dashboard could provide information such as:**
 * Active custom orders they have created.
@@ -64,7 +64,7 @@ The developer dashboard will act as the main working area for each developer on 
 
 This will give each developer a quick overview of their current workload and make it easier to identify orders that require attention.
 
-
+<br>
 
 ### Developer Custom Order Tracking
 Developers will be able to create, manage and track custom orders through their own dashboard, rather than relying on a large shared Google Sheet.
@@ -86,7 +86,7 @@ Developers will then be able to view their current and previous orders and updat
 
 This will provide developers with a clearer overview of their workload while also giving customers greater visibility over the progress of their order.
 
-
+<br>
 
 ### Customer Portal and Downloads
 Customers will have access to the **JX Customer & Development Hub** through **Discord OAuth**.
@@ -106,7 +106,7 @@ Completed custom-order files will remain linked to the customer's account, provi
 
 > **This will only apply to custom orders**. Normal products purchased through the main JX Modifications store will continue to be accessed through Payhip.
 
-
+<br>
 
 ### Payment Links - Using Stripe and PayPal API
 When a custom order is created, **JX Customer & Development Hub** will automatically generate both a Stripe and PayPal payment link using the information provided for that order.
@@ -115,7 +115,7 @@ The customer will then be able to view both payment options directly from their 
 
 This removes the need for developers to manually create payment requests through separate payment dashboards and ensures that customers are always given a choice between the two supported payment methods.
 
-
+<br>
 
 ### Payhip Coupon Creation
 The **JX Customer & Development Hub** will integrate selected functionality from the **Payhip API**.
@@ -124,7 +124,7 @@ Payhip will remain the main JX Modifications storefront and will continue to han
 
 Instead, authorised developers may be able to generate discount coupons for their own products when required.
 
-
+<br>
 
 ### Account Types & Permissions
 The **JX Customer & Development Hub** will use role-based permissions so that different users have access to different areas of the system.
@@ -150,7 +150,7 @@ Management accounts will have wider access to the platform. They may be able to:
 
 * View all custom orders across the platform
 * View all developer workloads
-* Resassign orders, only if necessary
+* Reassign orders, only if necessary
 * Manage users and permissions
 * Assist with customer or developer issues
 
