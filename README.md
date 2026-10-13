@@ -155,3 +155,29 @@ Management accounts will have wider access to the platform. They may be able to:
 * Assist with customer or developer issues
 
 > More advanced management functionality would be considered for future development.
+
+## Existing Alternatives & Inspirations
+There are several existing systems and platforms that have influenced the concept behind the JX Customer & Development Hub.
+#### Google Sheets
+Custom orders are currently managed using a shared Google Sheet. This works for storing basic information but becomes more difficult to manage as the number of developers and orders increases.
+
+A spreadsheet also does not provide individual developer dashboards, customer accounts, secure file downloads or automatic payment links.
+
+The existing spreadsheet system has therefore inspired the structured order-management side of the application, while the web application aims to improve how that information is presented and accessed.
+
+#### Discord
+Discord is currently the main communication platform between developers and customers.
+
+While Discord is useful for communication, important information can become difficult to locate once conversations become longer or tickets are closed.
+
+The application will therefore work alongside Discord rather than replacing it. Discord will continue to handle communication, while the web application will provide a permanent location for custom-order information, progress and files.
+
+#### Payhip
+Payhip is already used as the main storefront for JX Modifications.
+
+Rather than attempting to replace Payhip, the application will only use selected API functionality where it can improve the developer workflow, such as creating discount coupons.
+
+#### Stripe and PayPal
+Stripe and PayPal are already established payment platforms and will be used for handling payments rather than developing a separate payment system.
+
+Their APIs will allow payment links to be generated automatically when a custom order is created.
