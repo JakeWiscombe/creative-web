@@ -1,12 +1,15 @@
 <script>
-  let count = $state(0);
-
-  function increment() {
-    count += 1;
-  }
+  import Form from './lib/Form.svelte';
+  import Roster from './lib/Roster.svelte';
+  import './classless.css';
 </script>
 
-<div>
-  <p>Hello, World! {count}</p>
-  <button onclick={increment}>Click me</button>
-</div>
+<header>
+  <h1>Student Pet List</h1>
+  <p>Meet the students and the pets who make their days brighter.</p>
+</header>
+
+<main>
+  <Form />
+  <Roster />
+</main>
